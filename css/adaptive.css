@@ -1,0 +1,119 @@
+@media (max-width: 1100px){
+    .modal__content{
+        margin-left: -100px;
+    }
+}
+
+
+@media (max-width: 800px){
+    .tabs__btn{
+        font-size: 20px;
+    }
+    .tabs__btn_active{
+        font-size: 20px;
+    }
+    .modal__content{
+        margin-left: -234px;
+    }
+
+}
+@media (max-width: 730px){
+    .tabs__btn{
+        font-size: 16px;
+    }
+    .tabs__btn_active{
+        font-size: 16px;
+    }
+    .tabs__pane_show{
+        font-size: 16px;
+    }
+    .sec4{
+        padding-top: 50px;
+    }
+    .logo2{
+        width: 80%;
+    }
+
+}
+@media (max-width: 600px){
+    .myBtnContainer{
+        flex-direction: column;
+    }
+    .btn{
+        margin-bottom: 10px;
+    }
+    .filterDiv{
+        margin-top: 20px;
+    }
+    .accordion{
+        font-size: 12px;
+    }
+    .accordion:after{
+        font-size: 20px;
+    }
+    .panel{
+        font-size: 12px;
+    }
+    h4{
+        font-size: 50px;
+    }
+    h9{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 500px){
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    button{
+        margin: 0 auto;
+    }
+    h1{
+        font-size: 70px;
+    }
+    .sec2{
+        display: none;
+    }
+    h8{
+        font-size: 20px;
+    }
+    .modal__content{
+        width: 60%;
+        padding: 30px;
+    }
+    .ppp{
+        display: flex;
+        flex-direction: column;
+        margin-left: -8px;
+        margin-top: 88px;
+    }
+    .otp__button{
+        display: none;
+    }
+    .sss{
+        width: 80%;
+        left: 20px;
+    }
+    .ggg{
+        width: 80%;
+        left: 20px;
+    }
+    h3{
+        font-size: 60px;
+    }
+
+}
+
+@media (max-width: 400px){
+    .accordion{
+        margin-left: 10px;
+    }
+
+}
+@media (max-width: 320px){
+    .ppp{
+        margin-top: -3px;
+    }
+}

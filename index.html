@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coca</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/adaptive.css" type="text/css">
+</head>
+<body>
+    <!-- Бургер-Меню -->
+    <section class="main-menu">
+        <div class="container">
+            <nav class="navbar">
+                  <div class="navbar__wrap">
+                    <div class="hamb">
+                      <div class="hamb__field" id="hamb">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                      </div>
+                    </div>
+                    <div class="header__logo" href="#">
+                        <img src="img/Logo.png">
+                    </div>
+                    <ul class="menu" id="menu">
+                      <li><a href="#part1" href="url">About</a></li>
+                      <li><a href="#part2" href="url">Blog</a></li>
+                      <li><a href="#part3" href="url">Contact</a></li>
+                    </ul>
+                  </div>
+                  <button id="callback-button" class="header__button">Sign In</button>
+            </nav>
+            <div class="popup" id="popup"></div>
+        </div>
+    </section>
+    <section class="sec1">
+        <div class="container">
+            <div class="image">
+                <h2>Explore any kind of furnitures</h2>
+                <h1>Better Furniture</br>Better Living</h1>
+            </div>
+        </div>
+    </section>
+    <!-- Теги (вкладки) -->
+    <section class="sec2">
+        <div class="container">
+            <h4>What we provide</h4>
+            <div class="bat">
+            <div class="photo">
+                <img class="photo1" src="img/home.png">
+                <img class="photo1" src="img/credit-card.png">
+                <img class="photo1" src="img/thumbs-up.png">
+            </div>
+            <div class="tabs">
+                <div class="tabs__nav">
+                  <button class="tabs__btn tabs__btn_active">10 years of experience </br> in business</button>
+                  <button class="tabs__btn">Afforable price with </br>world class quality</button>
+                  <button class="tabs__btn">Bring your ideas into</br>a living product</button>
+                </div>
+                <div class="tabs__content">
+                  <div class="tabs__pane tabs__pane_show">
+                    We’re already established since 2012, and in 10 years we have lots of positive reviews and achievements
+                  </div>
+                  <div class="tabs__pane">
+                    Our craftsmen have lots of experience dealing with crafting furnitures and some of them have world class quality
+                  </div>
+                  <div class="tabs__pane" id="content-3">
+                    Besides you can buy the existing product, you can also consultate with us also to make your dream furniture
+                  </div>
+                </div>
+              </div>
+              </div>
+        </div>
+    </section>
+        <!-- Фильтрация -->
+    <section class="sec3">
+        <div class="container">
+            <h4 id="part1">Best seller products</h4>  
+            <div class="myBtnContainer">
+                <button1 class="btn active" onclick="filterSelection('all')">All</button1>
+                <button1 class="btn" onclick="filterSelection('aa')">Office chair</button1>
+                <button1 class="btn" onclick="filterSelection('bb')">Storage</button1>
+                <button1 class="btn" onclick="filterSelection('cc')">Decoration</button1>
+                <button1 class="btn" onclick="filterSelection('dd')">Lightings</button1>
+                <button1 class="btn" onclick="filterSelection('ee')">Bedside table</button1>
+            </div>
+            <div class="container1">
+                <div class="filterDiv aa"><img src="img/Rectangle 5.png"><h5>Cream Office Chair</h5><a5>$ 50,00</a5></div>
+                <div class="filterDiv bb"><img src="img/Rectangle 4.png"><h5>Celestra Grey Cabinet</h5><a5>$ 35,05</a5></div>
+                <div class="filterDiv cc"><img src="img/Rectangle 55.png"><h5>Fejka Artificial Plant</h5><a5>$ 5,00</a5></div>
+                <div class="filterDiv dd"><img src="img/Rectangle 6.png"><h5>White Standing Lamp</h5><a5>$ 23,58</a5></div>
+                <div class="filterDiv ee"><img src="img/Rectangle 7.png"><h5>Brown Wood Table</h5><a5>$ 23,58</a5></div>
+            </div>
+        </div>
+    </section>
+    <!-- Слайдер -->
+    <section class="sec4">
+        <div class="container">
+            <h9 id="part2">Our lates projects</h9>
+            <div class="mySlides">
+                  <img src="11.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                  <img src="12.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                  <img src="13.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                  <img src="14.png" style="width:100%">
+              </div>
+            
+            
+              <!-- Next and previous buttons 
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              -->
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+            
+              <div class="row">
+                <div class="column">
+                  <img class="demo cursor" src="img/21.png" style="width:100%" onclick="currentSlide(1)" alt="Kitchen">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="img/22.png" style="width:100%" onclick="currentSlide(2)" alt="livingroom">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="img/23.png" style="width:100%" onclick="currentSlide(3)" alt="bedroom">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="img/24.png" style="width:100%" onclick="currentSlide(4)" alt="bathroom">
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!-- Аккордион -->
+    <section class="sec5">
+        <div class="container">
+            <h4 id="part3">Awesome features</h4>
+            <button2 class="accordion">1. Why You Need SEO Optimization</button2>
+            <div class="panel">
+                <p>When does a mere internet 'SEO' company grow into a trusted partner that stays in front of the latest industry trends? When it's time to partner with Mocer, that's when.</p>
+            </div>
+            <button2 class="accordion">2. The Benefits of SEO Optimization</button2>
+            <div class="panel">
+                <p>When does a mere internet 'SEO' company grow into a trusted partner that stays in front of the latest industry trends? When it's time to partner with Mocer, that's when.</p>
+            </div>
+            <button2 class="accordion">3. How to Get Started with SEO Optimization</button2>
+            <div class="panel">
+                <p>When does a mere internet 'SEO' company grow into a trusted partner that stays in front of the latest industry trends? When it's time to partner with Mocer, that's when.</p>
+            </div>
+            <button2 class="accordion">4. How to Get Your Business Ready for SEO</button2>
+            <div class="panel">
+                <p>When does a mere internet 'SEO' company grow into a trusted partner that stays in front of the latest industry trends? When it's time to partner with Mocer, that's when.</p>
+            </div>
+            <button2 class="accordion">5. What is a Meta Description?</button2>
+            <div class="panel">
+                <p>When does a mere internet 'SEO' company grow into a trusted partner that stays in front of the latest industry trends? When it's time to partner with Mocer, that's when.</p>
+            </div>
+            <button2 class="accordion">6. How to Write a Meta Description</button2>
+            <div class="panel">
+                <p>When does a mere internet 'SEO' company grow into a trusted partner that stays in front of the latest industry trends? When it's time to partner with Mocer, that's when.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <div class="end">
+            <img class="logo2" src="img/Frame 13796.png">
+            <h8>Better Furniture, Better Living</h8>
+            <div class="line2"></div>
+            <div class="bottom">
+                <a7>© Sans Brothers</a7>
+                <a7>Privacy and Terms</a7>
+                <a7>Legal Notice</a7>
+                <a7>Languanges</a7>
+            </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Модальное окно -->
+    <div class="modal" id="modal-1">
+        <div class="container">
+        <div class="modal__content">
+            <button class="modal__close-button"><img src="./img/free-icon-close-4013407 1.png" width="26" alt=""></button>
+            <h3 class="modal__title">SIGN IN</h3>
+            <div class="ppp">
+            <a1>e-mail:<input class="sss" placeholder="" type="r"></input></a1>
+            <a2>password:<input class="ggg" placeholder="" type="r"></input></a2>
+            <button class="otp__button">Send</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <script src="js/custom2.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
